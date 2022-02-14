@@ -1,0 +1,46 @@
+.status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%; /* 너비가 스크린의 100%를 차지하도록 */
+  box-sizing: border-box; /* 안에 padding을 주더라도, box 사이즈 늘리지 말라는 뜻! */
+}
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 44px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  color: #2f363e;
+  position: relative;
+}
+.nav__notification {
+  background-color: #eb5e33;
+  width: 22px;
+  height: 22px;
+  font-size: 13px;
+  display: block;
+  border-radius: 11px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  top: -17px;
+}
+.nav__dot {
+  background-color: #eb5e33;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 27px;
+}
