@@ -3,16 +3,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 45px;
+  padding-top: 34px;
   margin-bottom: 15px;
+  top: 0;
 }
 .alt-header__title {
   font-size: 25px;
   font-weight: 600;
+}
+.alt-header__column {
+  width: 33%;
 }
 .alt-header__column:first-child {
   margin-right: auto;
 }
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.alt-header__column span:first-child {
+  margin-right: 22px;
+}
+.alt-header__column:nth-child(2) {
+  text-align: center;
 }

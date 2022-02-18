@@ -21,3 +21,15 @@
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header .fa-gear:hover {
+  animation: rotateCog 2s linear infinite;
+}
